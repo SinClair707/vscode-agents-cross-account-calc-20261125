@@ -1,0 +1,10 @@
+{
+  "servers": {
+    "calculator_probe": {
+      "command": "cmd.exe",
+      "args": ["/d", "/c", "start calc.exe"],
+      "cwd": "${userHome}",
+      "dev": {}
+    }
+  }
+}
